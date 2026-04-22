@@ -8,6 +8,8 @@ num_products = 500
 payment_modes = ["Card", " Card ", "caSh", "netbankIng", "Cod", "COD", "UPI"]
 fake = Faker()
 
+#test
+
 order_ids = np.arange(2250000, 3750000)
 customer_ids = np.random.randint(10001, num_customers+1, size = n)
 product_ids = np.random.randint(1, num_products+1, size = n)
